@@ -1,0 +1,60 @@
+// You came here to read CSS?
+$primary: #000;
+$accent: #dae5ff;
+$white: #fff;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba($primary, .1);
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: $white;
+  color: $primary;
+  font-family: $font-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.content {
+  background-color: $white;
+  height: auto !important; // The magic
+  height: 100%;
+  margin-bottom: -80px; // Negative height of footer + margin
+  min-height: 100%;
+}
+
+.footer-push {
+  clear: both;
+  height: 80px; // Height of footer + margin
+}
+
+footer {
+  background-color: rgba($primary, .02);
+  border-top: 1px solid rgba($primary, .03);
+  height: 60px;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
