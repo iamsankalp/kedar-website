@@ -37,24 +37,36 @@ html {
   height: 100%;
 }
 
-.content {
-  background-color: $white;
-  height: auto !important; // The magic
-  height: 100%;
-  margin-bottom: -80px; // Negative height of footer + margin
-  min-height: 100%;
+.container {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 100%;
+
+  @include for-size(sm) {
+    max-width: 840px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @include for-size(md) {
+    max-width: 1140px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  @include for-size(lg) {
+    max-width: 1740px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  @include for-size(xl) {
+    max-width: 2000px;
+  }
+
 }
 
-.footer-push {
-  clear: both;
-  height: 80px; // Height of footer + margin
-}
-
-footer {
-  background-color: rgba($primary, .02);
-  border-top: 1px solid rgba($primary, .03);
-  height: 60px;
-  margin-top: 20px;
-  padding-top: 10px;
-  text-align: center;
+.intro {
+  font-weight: 500;
 }
