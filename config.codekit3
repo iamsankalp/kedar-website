@@ -371,6 +371,105 @@
 		"oAP": "\/booking\/index.html",
 		"oF": 0
 		},
+	"\/confirmation\/image_1.png": {
+		"ft": 32768,
+		"iS": 1173092,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_2.png": {
+		"ft": 32768,
+		"iS": 1786426,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_3.png": {
+		"ft": 32768,
+		"iS": 188153,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_4.png": {
+		"ft": 32768,
+		"iS": 847003,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_5.png": {
+		"ft": 32768,
+		"iS": 629728,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_6.png": {
+		"ft": 32768,
+		"iS": 868252,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_6.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_7.png": {
+		"ft": 32768,
+		"iS": 810972,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_7.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_8.png": {
+		"ft": 32768,
+		"iS": 804269,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_8.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/confirmation\/image_9.png": {
+		"ft": 32768,
+		"iS": 1744565,
+		"oA": 0,
+		"oAP": "\/confirmation\/image_9.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/confirmation\/index.html": {
 		"cB": 0,
 		"ft": 8192,
