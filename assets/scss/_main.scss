@@ -331,22 +331,18 @@ figure.one {
   }
 }
 
-figure.four {
+figure.one-smaller {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   img {
-    width: 50%;
-    height: 50%;
-    align-self: flex-start;
-    margin-bottom: 2rem;
+    max-width: 100%;
+    height: auto;
 
     @include for-size(md) {
-      width: 25%;
-      height: 25%;
-      margin-bottom: 0;
+      max-width: 60%;
     }
   }
 }
@@ -366,6 +362,47 @@ figure.two {
     @include for-size(sm) {
       width: 50%;
       height: 50%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+figure.three {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    width: 50%;
+    height: 50%;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+
+    @include for-size(sm) {
+      width: 25%;
+      height: 25%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+figure.four {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 50%;
+    height: 50%;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+
+    @include for-size(md) {
+      width: 25%;
+      height: 25%;
       margin-bottom: 0;
     }
   }
