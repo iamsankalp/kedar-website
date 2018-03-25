@@ -300,3 +300,71 @@ p {
   transition: background-color 0.3s ease-in-out; }
   .highlight:hover {
     background-color: #c1d3ff; }
+
+.images figure {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+  @media (min-width: 600px) {
+    .images figure {
+      margin-top: 3rem;
+      margin-bottom: 3rem; } }
+  @media (min-width: 900px) {
+    .images figure {
+      margin-top: 5rem;
+      margin-bottom: 5rem; } }
+
+figure.one img {
+  max-width: 100%;
+  height: auto; }
+
+figure.four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  figure.four img {
+    width: 50%;
+    height: 50%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-bottom: 2rem; }
+    @media (min-width: 900px) {
+      figure.four img {
+        width: 25%;
+        height: 25%;
+        margin-bottom: 0; } }
+
+figure.two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  figure.two img {
+    width: 100%;
+    height: 100%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-bottom: 2rem; }
+    @media (min-width: 600px) {
+      figure.two img {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 0; } }

@@ -306,3 +306,67 @@ p {
     background-color: darken($accent,5%);
   }
 }
+
+.images {
+  figure {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    @include for-size(sm) {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    @include for-size(md) {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+  }
+}
+
+figure.one {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+figure.four {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 50%;
+    height: 50%;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+
+    @include for-size(md) {
+      width: 25%;
+      height: 25%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+figure.two {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+
+    @include for-size(sm) {
+      width: 50%;
+      height: 50%;
+      margin-bottom: 0;
+    }
+  }
+}
