@@ -313,9 +313,23 @@ p {
       margin-top: 5rem;
       margin-bottom: 5rem; } }
 
-figure.one img {
-  max-width: 100%;
-  height: auto; }
+figure.one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  figure.one img {
+    max-width: 100%;
+    height: auto; }
 
 figure.one-smaller {
   display: -webkit-box;

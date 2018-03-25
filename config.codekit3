@@ -203,6 +203,83 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/audiogyan\/image_1.png": {
+		"ft": 32768,
+		"iS": 1254770,
+		"oA": 0,
+		"oAP": "\/audiogyan\/image_1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/audiogyan\/image_2.png": {
+		"ft": 32768,
+		"iS": 26281,
+		"oA": 0,
+		"oAP": "\/audiogyan\/image_2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/audiogyan\/image_3.png": {
+		"ft": 32768,
+		"iS": 2909900,
+		"oA": 0,
+		"oAP": "\/audiogyan\/image_3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/audiogyan\/image_4.png": {
+		"ft": 32768,
+		"iS": 688283,
+		"oA": 0,
+		"oAP": "\/audiogyan\/image_4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/audiogyan\/image_5.png": {
+		"ft": 32768,
+		"iS": 2281452,
+		"oA": 0,
+		"oAP": "\/audiogyan\/image_5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/audiogyan\/image_6.png": {
+		"ft": 32768,
+		"iS": 33126,
+		"oA": 0,
+		"oAP": "\/audiogyan\/image_6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/audiogyan\/image_7.png": {
+		"ft": 32768,
+		"iS": 746028,
+		"oA": 0,
+		"oAP": "\/audiogyan\/image_7.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/audiogyan\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -790,6 +867,127 @@
 		"oA": 0,
 		"oAP": "\/resume\/index.html",
 		"oF": 0
+		},
+	"\/vipassana\/image_1.png": {
+		"ft": 32768,
+		"iS": 1254770,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_10.png": {
+		"ft": 32768,
+		"iS": 90705,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_10.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_11.png": {
+		"ft": 32768,
+		"iS": 34181,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_11.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_2.png": {
+		"ft": 32768,
+		"iS": 344120,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_3.png": {
+		"ft": 32768,
+		"iS": 266919,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_4.png": {
+		"ft": 32768,
+		"iS": 43151,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_5.png": {
+		"ft": 32768,
+		"iS": 46362,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_6.png": {
+		"ft": 32768,
+		"iS": 44826,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_6.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_7.png": {
+		"ft": 32768,
+		"iS": 84671,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_7.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_8.png": {
+		"ft": 32768,
+		"iS": 73302,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_8.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/vipassana\/image_9.png": {
+		"ft": 32768,
+		"iS": 63147,
+		"oA": 0,
+		"oAP": "\/vipassana\/image_9.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/vipassana\/index.html": {
 		"cB": 0,
