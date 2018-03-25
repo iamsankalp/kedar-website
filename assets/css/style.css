@@ -177,7 +177,7 @@ ul.inline {
     padding-bottom: 1rem; }
 
 .page-study {
-  margin-top: 3rem; }
+  padding-top: 4rem; }
 
 .page-header {
   z-index: 99;
@@ -185,14 +185,29 @@ ul.inline {
   left: 0;
   right: 0;
   width: 100%;
-  margin-top: -3rem;
+  margin-top: -4rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(255, 255, 255, 0.95); }
   .page-header a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgba(0, 0, 0, 0.5); }
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 700; }
+
+p {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7); }
+
+.highlight {
+  background-color: #dae5ff;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0.2rem 0.2rem; }

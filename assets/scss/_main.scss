@@ -164,7 +164,7 @@ ul.inline {
 // Study Pages
 
 .page-study {
-  margin-top: 3rem; //because page-header
+  padding-top: 4rem; //because page-header
 }
 
 .page-header {
@@ -173,15 +173,33 @@ ul.inline {
   left: 0;
   right: 0;
   width: 100%;
-  margin-top: -3rem;
+  margin-top: -4rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: rgba($white, 0.5);
+  background-color: rgba($white, 0.95);
 
   a {
-    display: flex;
+    display: inline-flex;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgba($primary, 0.5);
   }
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: rgba($primary, 0.7);
+}
+
+.highlight {
+  background-color: $accent;
+  color: rgba($primary, 0.7);
+  padding: 0.2rem 0.2rem;
 }
