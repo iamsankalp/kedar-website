@@ -66,7 +66,12 @@ html {
   height: 100%; }
 
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out; }
+  a:hover {
+    color: black; }
 
 .container {
   margin: 0 auto;
@@ -86,8 +91,8 @@ a {
   @media (min-width: 1200px) {
     .container {
       max-width: 1740px;
-      padding-left: 6rem;
-      padding-right: 6rem; } }
+      padding-left: 8rem;
+      padding-right: 8rem; } }
   @media (min-width: 1800px) {
     .container {
       max-width: 2000px; } }
@@ -102,7 +107,16 @@ a {
           align-items: center; }
   .intro h1 {
     font-weight: 500;
-    font-size: 1.5rem; }
+    font-size: 1.8rem; }
+    @media (min-width: 600px) {
+      .intro h1 {
+        font-size: 5vw;
+        margin-top: -5vw;
+        max-width: 90%; } }
+    @media (min-width: 1800px) {
+      .intro h1 {
+        font-size: 6rem;
+        margin-top: -6rem; } }
 
 .personal {
   display: -webkit-box;
@@ -116,6 +130,12 @@ a {
     .personal .profile img {
       width: 50%;
       max-width: 100px; }
+      @media (min-width: 1200px) {
+        .personal .profile img {
+          width: 75%; } }
+      @media (min-width: 1800px) {
+        .personal .profile img {
+          width: 100%; } }
   .personal .resume {
     margin-left: auto;
     -ms-flex-item-align: center;
@@ -139,7 +159,28 @@ ul.p-list {
   list-style: none;
   margin-bottom: 5rem; }
   ul.p-list li {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    ul.p-list li:hover {
+      background-color: rgba(0, 0, 0, 0.02); }
+      ul.p-list li:hover:after {
+        content: '\2192';
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-left: auto;
+        margin-right: 1rem;
+        font-size: 1rem; }
+        @media (min-width: 600px) {
+          ul.p-list li:hover:after {
+            font-size: 2rem; } }
     ul.p-list li a {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -147,7 +188,16 @@ ul.p-list {
       font-size: 1.5rem;
       font-weight: 500;
       color: #000;
-      padding: 1rem 0; }
+      padding: 1rem 0;
+      width: 100%; }
+      @media (min-width: 600px) {
+        ul.p-list li a {
+          font-size: 3vw;
+          padding: 1.5rem 0; } }
+      @media (min-width: 1800px) {
+        ul.p-list li a {
+          font-size: 4rem;
+          padding: 2rem 0; } }
 
 footer {
   padding-top: 1rem;

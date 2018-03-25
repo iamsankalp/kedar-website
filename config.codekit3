@@ -120,6 +120,17 @@
 		"oAP": "\/assets\/fonts\/CalibreWeb-Semibold.woff2",
 		"oF": 0
 		},
+	"\/assets\/img\/profile.png": {
+		"ft": 32768,
+		"iS": 30705,
+		"oA": 0,
+		"oAP": "\/assets\/img\/profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/js\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
