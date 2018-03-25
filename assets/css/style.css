@@ -68,6 +68,7 @@ html {
 a {
   text-decoration: none !important;
   color: rgba(0, 0, 0, 0.5);
+  will-change: color;
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out; }
   a:hover {
@@ -160,6 +161,7 @@ ul.p-list {
   margin-bottom: 5rem; }
   ul.p-list li {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    will-change: background-color;
     -webkit-transition: background-color 0.4s ease;
     transition: background-color 0.4s ease;
     display: -webkit-box;
@@ -272,12 +274,12 @@ p {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   font-size: 1rem;
+  line-height: 1.2;
   color: rgba(0, 0, 0, 0.7);
   max-width: 90%; }
   @media (min-width: 600px) {
     p {
       font-size: 2.5vw;
-      line-height: 1.2;
       max-width: 75%; } }
   @media (min-width: 900px) {
     p {
@@ -290,4 +292,9 @@ p {
 .highlight {
   background-color: #dae5ff;
   color: rgba(0, 0, 0, 0.7);
-  padding: 0.2rem 0.2rem; }
+  padding: 0.2rem 0.2rem;
+  will-change: background-color;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; }
+  .highlight:hover {
+    background-color: #c1d3ff; }

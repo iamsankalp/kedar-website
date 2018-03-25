@@ -42,6 +42,7 @@ html {
 a {
   text-decoration: none !important;
   color: rgba($primary, 0.5);
+  will-change: color;
   transition: color 0.3s ease-in-out;
 
 
@@ -150,6 +151,7 @@ ul.p-list {
 
   li {
     border-bottom: 1px solid rgba($primary, 0.05);
+    will-change: background-color;
     transition: background-color 0.4s ease;
     display: flex;
 
@@ -272,12 +274,12 @@ p {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   font-size: 1rem;
+  line-height: 1.2;
   color: rgba($primary, 0.7);
   max-width: 90%;
 
   @include for-size(sm) {
     font-size: 2.5vw;
-    line-height: 1.2;
     max-width: 75%;
   }
 
@@ -295,4 +297,10 @@ p {
   background-color: $accent;
   color: rgba($primary, 0.7);
   padding: 0.2rem 0.2rem;
+  will-change: background-color;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: darken($accent,5%);
+  }
 }
