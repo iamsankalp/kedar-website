@@ -245,7 +245,8 @@ ul.inline {
     display: inline-flex;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: rgba(0, 0, 0, 0.5); }
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
     @media (min-width: 600px) {
       .page-header a {
         font-size: 1.2rem; } }

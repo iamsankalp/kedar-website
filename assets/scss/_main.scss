@@ -239,6 +239,7 @@ ul.inline {
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgba($primary, 0.5);
+    text-transform: uppercase;
 
     @include for-size(sm) {
       font-size: 1.2rem;
