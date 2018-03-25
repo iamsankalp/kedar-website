@@ -203,11 +203,25 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/audiogyan\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/audiogyan\/index.html",
+		"oF": 0
+		},
 	"\/booking\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/booking\/index.html",
+		"oF": 0
+		},
+	"\/confirmation\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/confirmation\/index.html",
 		"oF": 0
 		},
 	"\/index.html": {
@@ -217,11 +231,32 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/local\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/local\/index.html",
+		"oF": 0
+		},
+	"\/practo\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/practo\/index.html",
+		"oF": 0
+		},
 	"\/resume\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resume\/index.html",
+		"oF": 0
+		},
+	"\/vipassana\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/vipassana\/index.html",
 		"oF": 0
 		}
 	},
