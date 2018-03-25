@@ -239,12 +239,32 @@ ul.inline {
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgba($primary, 0.5);
+
+    @include for-size(sm) {
+      font-size: 1.2rem;
+    }
   }
 }
 
 .page-title {
   font-size: 2rem;
   font-weight: 700;
+
+  @include for-size(sm) {
+    margin-top: 1vw;
+    font-size: 5vw;
+  }
+
+  @include for-size(md) {
+    margin-top: 2vw;
+    margin-left: -0.2vw;
+  }
+
+  @include for-size(xl) {
+    font-size: 6rem;
+    margin-top: 2.5rem;
+    margin-left: -0.3rem;
+  }
 }
 
 p {
@@ -252,6 +272,22 @@ p {
   margin-bottom: 1.5rem;
   font-size: 1rem;
   color: rgba($primary, 0.7);
+  max-width: 90%;
+
+  @include for-size(sm) {
+    font-size: 2.5vw;
+    line-height: 1.2;
+    max-width: 75%;
+  }
+
+  @include for-size(md) {
+    font-size: 1.5vw;
+    max-width: 50%;
+  }
+
+  @include for-size(xl) {
+    font-size: 2rem;
+  }
 }
 
 .highlight {
