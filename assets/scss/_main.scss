@@ -246,10 +246,13 @@ ul.inline {
   right: 0;
   width: 100%;
   margin-top: -4rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   background-color: rgba($white, 0.95);
   box-shadow: 0px 1px 8px 0 rgba($primary, .05);
+
+  @include for-size(sm) {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 
   a {
     display: inline-flex;
@@ -265,7 +268,7 @@ ul.inline {
 }
 
 .page-title {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   font-size: 2rem;
   font-weight: 700;
 
