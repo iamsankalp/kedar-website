@@ -103,13 +103,20 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 75vh;
+  height: 60vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 600px) {
+    .intro {
+      height: 70vh; } }
+  @media (min-width: 900px) {
+    .intro {
+      height: 75vh; } }
   .intro h1 {
     font-weight: 500;
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin-top: -5vh; }
     @media (min-width: 600px) {
       .intro h1 {
         font-size: 5vw;
@@ -139,6 +146,8 @@ a {
         .personal .profile img {
           width: 100%; } }
   .personal .resume {
+    font-weight: 500;
+    letter-spacing: 0;
     margin-left: auto;
     -ms-flex-item-align: center;
         align-self: center; }
@@ -242,7 +251,9 @@ ul.inline {
   margin-top: -4rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.95); }
+  background-color: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.05); }
   .page-header a {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
