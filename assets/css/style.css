@@ -267,6 +267,7 @@ ul.inline {
         font-size: 1.2rem; } }
 
 .page-title {
+  margin-top: 1.5rem;
   font-size: 2rem;
   font-weight: 700; }
   @media (min-width: 600px) {
@@ -305,7 +306,7 @@ p {
 .highlight {
   background-color: #dae5ff;
   color: rgba(0, 0, 0, 0.7);
-  padding: 0.2rem 0.2rem;
+  padding: 0rem 0.2rem;
   will-change: background-color;
   -webkit-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out; }

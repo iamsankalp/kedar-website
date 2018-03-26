@@ -264,6 +264,7 @@ ul.inline {
 }
 
 .page-title {
+  margin-top: 1.5rem;
   font-size: 2rem;
   font-weight: 700;
 
@@ -310,7 +311,7 @@ p {
 .highlight {
   background-color: $accent;
   color: rgba($primary, 0.7);
-  padding: 0.2rem 0.2rem;
+  padding: 0rem 0.2rem;
   will-change: background-color;
   transition: background-color 0.3s ease-in-out;
 
