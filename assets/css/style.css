@@ -237,7 +237,8 @@ ul.inline {
     display: inline-flex;
     margin-right: 1.5rem;
     padding-top: 1rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    letter-spacing: 0; }
 
 .page-study {
   padding-top: 4rem; }
