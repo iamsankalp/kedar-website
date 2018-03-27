@@ -253,7 +253,7 @@ ul.inline {
   background-color: rgba(255, 255, 255, 0.95);
   -webkit-box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.05); }
-  @media (min-width: 600px) {
+  @media (min-width: 900px) {
     .page-header {
       padding-top: 0.5rem;
       padding-bottom: 0.5rem; } }

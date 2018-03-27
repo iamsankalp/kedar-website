@@ -249,7 +249,7 @@ ul.inline {
   background-color: rgba($white, 0.95);
   box-shadow: 0px 1px 8px 0 rgba($primary, .05);
 
-  @include for-size(sm) {
+  @include for-size(md) {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
